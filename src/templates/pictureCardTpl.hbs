@@ -1,0 +1,33 @@
+{{#each this.hits}}
+<a href="{{this.largeImageURL}}" class="gallery__link">
+<div class="gallery__container">
+    <img class="gallery__image" src="{{this.webformatURL}}" alt="{{this.tags}}" loading="lazy" />
+    <div class="gallery__info">
+        <p class="gallery__info-item">
+            <span class="gallery__info-text">
+            <b>Likes:</b>
+            <span>{{this.likes}}</span>
+            </span>
+        </p>
+        <p class="gallery__info-item">
+            <span class="gallery__info-text">
+            <b>Views:</b>
+            <span>{{this.views}}</span>
+            </span>
+        </p>
+        <p class="gallery__info-item">
+            <span class="gallery__info-text">
+            <b>Comments:</b>
+            <span>{{this.comments}}</span>
+            </span >
+        </p>
+        <p class="gallery__info-item">
+            <span class="gallery__info-text">
+            <b>Downloads:</b>
+            <span>{{this.downloads}}</span>
+            </span>
+        </p>
+    </div>
+</div>
+</a>
+{{/each}}

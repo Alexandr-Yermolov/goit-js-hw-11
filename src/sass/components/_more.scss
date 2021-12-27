@@ -1,0 +1,42 @@
+.more__section {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  background-color: #7ad1f3;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 30px;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 14px;
+  margin-right: 10px;
+  width: 127px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #00adf1;
+  }
+}
+
+.load-more__scroll {
+  display: flex;
+  justify-content: center;
+  background-color: #7ad1f3;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 30px;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 14px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #59a9c9;
+  }
+}
