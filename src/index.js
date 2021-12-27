@@ -1,12 +1,10 @@
 import './sass/main.scss';
 import APIsearch from './js/get-API.js';
+import getRefs from './js/get-refs';
 import pictureCardTpl from './templates/pictureCardTpl.hbs';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { Report } from 'notiflix/build/notiflix-report-aio';
-import getRefs from './js/get-refs';
-// Описан в документации
 import SimpleLightbox from 'simplelightbox';
-// Дополнительный импорт стилей
 import "simplelightbox/dist/simple-lightbox.min.css";
 import { forEach } from 'lodash';
 
